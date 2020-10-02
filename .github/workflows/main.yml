@@ -30,12 +30,12 @@ jobs:
        with:
          # Yarn command
         cmd: install
-     - name: Creating building
+     - name: Build React App
        run: yarn build
           
      - name: installing surge
-
-       run: npm inatall -g surge
+      
+       run: npm inatall --g surge
      
      
      - name: deploying on surge
